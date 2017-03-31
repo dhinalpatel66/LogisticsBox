@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_delivery_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="#d3d3d3"
+
+    tools:context="com.example.admin.logisticbox.Delivery_address">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Name               :"
+            android:layout_marginTop="10dp"
+            android:id="@+id/delivery_tv_name"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:singleLine="true"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="10dp"
+            android:id="@+id/delivery_et_name"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Company        :"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_tv_company"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_et_company"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Address           :"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_tv_address"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:lines="3"
+            android:gravity="top"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_et_address"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="City                   :"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_tv_city"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_et_city"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="State                :"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_tv_state"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_et_state"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Country           :"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_tv_country"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_et_country"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Postcode        :"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_tv_postcode"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:maxLength="6"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_et_postcode"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Mobile No.      :"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_tv_mobilenumber"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:maxLength="10"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_et_mobilenumber"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Landline No.   :"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_tv_landlineno"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:maxLength="10"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_et_landlineno"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Email Id.*         :"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_tv_emailid"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:singleLine="true"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="20dp"
+            android:id="@+id/delivery_et_emailid"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_gravity="center"
+        android:id="@+id/delivery_button_next"
+        />
+</LinearLayout>
+</ScrollView>

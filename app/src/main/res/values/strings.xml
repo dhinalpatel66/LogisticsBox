@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Logistic Box</string>
+    <string name="title_activity_homepage">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_shipment_tracking">Shipment Tracking</string>
+    <string name="title_activity_ship_tracking">Ship_tracking</string>
+
+    <string-array name="document_description">
+        <item>Select</item>
+        <item>Personal document</item>
+        <item>Interoffice document</item>
+        <item>Business document</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="shipment_purpose">
+        <item>Select</item>
+        <item>Commercial</item>
+        <item>Personal use</item>
+    </string-array>
+
+    <string-array name="select_amount">
+        <item>Select amount of stuff</item>
+        <item>1 BHK(approx 600Sqft)</item>
+        <item>2 BHK(approx 1000Sqft)</item>
+        <item>3 BHK(approx 1400Sqrt)</item>
+        <item>4 BHK(approx 1800Sqft)</item>
+    </string-array>
+    <string-array name="select_boxes">
+        <item>Select boxes</item>
+        <item>Minimalist(25 Boxes)</item>
+        <item>Regular(30 Boxes)</item>
+        <item>Collector(35 Boxes)</item>
+    </string-array>
+    <string-array name="select_packaging">
+        <item>Recycled Packaging Paper</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="select_wrap">
+        <item>Bubble Wrap</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="select_mattress">
+        <item>Mattress cover</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="select_sofa">
+        <item>Sofa cover</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="select_chair">
+        <item>Chair cover</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="select_zip_ties">
+        <item>Zip Ties</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+
+
+
+
+
+    <string-array name="select_Packaging_Paper">
+        <item>Packaging Paper</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array><string-array name="select_Bubble_Wrap">
+    <item>Bubble Wrap</item>
+    <item>5</item>
+    <item>10</item>
+    <item>15</item>
+    <item>20</item>
+    <item>25</item>
+</string-array>
+    <string-array name="select_Thermocol_Sheet">
+        <item>Thermocol Sheet</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+    <string-array name="select_Plastic_Wrap">
+        <item>Plastic Wrap</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+
+
+
+
+
+</resources>

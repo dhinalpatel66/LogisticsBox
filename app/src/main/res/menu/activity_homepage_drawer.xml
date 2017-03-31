@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/side_nav_bar">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Book"
+            android:icon="@drawable/ic_directions_boat_black_24dp"
+            android:title="Book Shipment" />
+        <item
+            android:id="@+id/nav_Track"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Shipment Tracking" />
+
+        <item
+            android:id="@+id/nav_services"
+            android:title="Services"
+            />
+        <item
+            android:id="@+id/nav_rates"
+            android:title="Rates"
+            />
+        
+        <item
+            android:id="@+id/nav_setting"
+            android:title="Setting"
+            />
+        <item
+            android:id="@+id/nav_Help"
+            android:icon="@drawable/ic_help_outline_black_24dp"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:title="About Us" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFEC1B04">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/furniture"
+        />
+
+    <TextView
+        android:text="Furniture"
+        android:textColor="#2914e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/descp4" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asdfghjlzxcvbnmggewrtyuioplhjvdlkdxknvjdhknkjvndjvbsdkbvksj"
+        />
+
+
+</LinearLayout>

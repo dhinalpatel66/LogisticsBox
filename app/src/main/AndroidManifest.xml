@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.logisticbox">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Spalsh_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup" />
+        <activity
+            android:name=".homepage"
+            android:label="@string/title_activity_homepage"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Pick_up_address"
+            android:label="Pickup Address"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Delivery_address"
+            android:label="Delivery_address"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Services"
+            android:label="Services"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Intercity"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Aircraft"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Cargo"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".furniturewindows"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".Shipment_tracking"
+            android:label="Shipment Tracking"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Shipment_Contents"
+            android:label="Shipment Content"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Documents"
+            android:label="Document"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Product"
+            android:label="Product"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Move_Home"
+            android:label="Move Home"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Furniture"
+            android:label="Furniture"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Help"
+            android:label="Help"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Feedback"
+            android:label="Feedback"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".About_Us"
+            android:label="About Us"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Contact_Us"
+            android:label="Contact Us"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Setting"
+            android:label="Setting"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".History"
+            android:label="History"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Rates"
+            android:label="Rates"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".Cost" />
+        <activity
+            android:name=".Home_Order_Activity"
+            android:label="Packaging supplier"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".ForgotPassword"
+            android:label="Forgot Password"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Profile"
+            android:label="Profile"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Change_firstname"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Change_lastname"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Change_contact_number"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Change_password"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Change_email"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Claim"
+            android:label="Claim"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".Furniture_details"
+            android:label="Furniture Details"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" ></activity>
+    </application>
+
+</manifest>
